@@ -1,3 +1,38 @@
+/* my attempt
+ body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+}
+
+.title {
+  background: #e3f4ff;
+  font-size: 16px;
+  margin: 8px;
+  margin-top: 5px;
+}
+
+.content {
+  background: #e3f4ff;
+  margin: 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  padding: 8px
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  margin: 0 auto
+} */
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -24,4 +59,33 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+}
+
+
+.card {
+  padding: 8px;
+}
+
+.title {
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 0; /* Margin seems to add default value unless you state it 
+  to add Zero */
+  margin-bottom: 8px;
+}
+
+.content {
+  margin-bottom: 8px;
+  padding: 16px 8px;
+}
+
+.button-container { /* Text align seems to work on button tag */
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block; /* Padding works on button too! */
+  margin: 0 auto;
+  padding: 8px 24px;
 }
